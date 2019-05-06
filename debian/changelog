@@ -1,3 +1,11 @@
+debconf (1.5.58ubuntu2) xenial; urgency=medium
+
+  * Fix readline prompts when run via run-parts (LP: #1822270)
+    - Debconf/FrontEnd/Readline.pm: force output to stdout if both stdout and
+      stderr are pipes
+
+ -- Heitor Alves de Siqueira <halves@canonical.com>  Mon, 06 May 2019 13:31:57 -0300
+
 debconf (1.5.58ubuntu1) xenial; urgency=low
 
   * Merge from Debian unstable.  Remaining changes:
